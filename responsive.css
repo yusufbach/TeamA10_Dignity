@@ -1,0 +1,44 @@
+@media all and (max-width: 1000px) {
+    .header-logo {
+        font-size: 30px;
+    }
+
+    .header-list ul li {
+        font-size: 14px;
+    }
+
+    .lesson-wrapper {
+        height: 800px;
+        background-repeat: repeat-y;
+    }
+    .lesson {
+        width:50%;
+        margin-bottom: 15px;
+    }
+    .footer-list li {
+        margin-right: 3%;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .header-logo {
+        font-size: 20px;
+    }
+
+    .header-list ul li {
+        font-size: 10px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+    
+    .port {
+        width: 240px;
+    }
+
+    .footer-list li {
+        font-size: 13px;
+        margin-right: 0.5%;
+    }
+}
